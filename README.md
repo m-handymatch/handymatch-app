@@ -1,7 +1,7 @@
-# Fixwell app (iPhone + Android)
+# HandyMatch app (iPhone + Android)
 
 One React Native codebase (Expo SDK 58, Expo Router, TypeScript) for both platforms.
-Matches the Fixwell website and the phone screens on the design canvas.
+Matches the HandyMatch website and the phone screens on the design canvas.
 
 ## Screens
 
@@ -43,4 +43,4 @@ All data is sample data in `src/store.tsx`. Bracketed text like `[PRO NAME]`, `[
 
 Use EAS Build (no Mac needed): `npx eas-cli@latest build -p all`, then `npx eas-cli@latest submit`.
 You need an Apple Developer account and a Google Play Console account.
-Bundle ID / package name is `com.fixwell.app` in `app.json`; change it to your own domain before the first build.
+Bundle ID / package name is `com.handymatch.app` in `app.json`; change it to your own domain before the first build.

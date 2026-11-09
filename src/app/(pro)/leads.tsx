@@ -22,7 +22,7 @@ export default function Leads() {
       <View style={[st.header, { paddingTop: insets.top + 16 }]}>
         <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
           <View style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
-            <Text style={st.wordmark}>Fixwell</Text>
+            <Text style={st.wordmark}>HandyMatch</Text>
             <Pill text="Pro" tone="dark" style={{ borderRadius: 6, paddingHorizontal: 8 }} />
           </View>
           <Pressable accessibilityRole="button" accessibilityLabel={`Balance $${balance}`} onPress={() => router.navigate('/balance')} style={{ alignItems: 'flex-end' }}>

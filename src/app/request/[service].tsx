@@ -37,7 +37,7 @@ export default function NewRequest() {
           <>
             <Button title="Get matched with a pro" onPress={submit} />
             <Text style={{ fontFamily: fonts.regular, fontSize: 12, lineHeight: 17, color: colors.muted }}>
-              By tapping Get matched, you agree that Fixwell and the one pro we match you with may call or text you about this
+              By tapping Get matched, you agree that HandyMatch and the one pro we match you with may call or text you about this
               request, including by automated means. Consent isn't required to buy. Reply STOP to opt out.
             </Text>
           </>

@@ -1,4 +1,4 @@
-// Fixwell design tokens, shared by the website and the app.
+// HandyMatch design tokens, shared by the website and the app.
 export const colors = {
   brand: '#0F5C4D',
   brandDark: '#0A4339',

@@ -11,7 +11,7 @@ export default function Account() {
         <Button kind="outline" title="Privacy Policy" onPress={() => {}} />
         <Button kind="outline" title="Do Not Sell or Share My Info" onPress={() => {}} />
         {/* Demo shortcut: in production the pro app is reached by signing in with a pro account. */}
-        <Button kind="brand" title="Switch to Fixwell for Pros" onPress={() => router.replace('/leads')} />
+        <Button kind="brand" title="Switch to HandyMatch for Pros" onPress={() => router.replace('/leads')} />
       </View>
     </Screen>
   );

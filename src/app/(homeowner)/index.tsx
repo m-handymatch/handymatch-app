@@ -14,7 +14,7 @@ export default function Home() {
       <View style={st.header}>
         <View style={st.brand}>
           <View style={st.logo}><Icon name="wrench" size={18} color={colors.white} /></View>
-          <Text style={st.wordmark}>Fixwell</Text>
+          <Text style={st.wordmark}>HandyMatch</Text>
         </View>
         <View style={st.zip}>
           <Icon name="pin" size={16} color={colors.brand} />
